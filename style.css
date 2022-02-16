@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.leftside {
+    width: 40%;
+    background-image: url("img/david-dvoracek-tQk3y00flv4-unsplash.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logobackground {
+    width: 100%;
+    height: 15%;
+    margin-top: 25%;
+    background-color: rgba(0,128,0,.3);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+@font-face {
+    font-family: OdinFont;
+    src: url(Norse-Bold.otf);
+}
+
+
+.odin {
+    align-self: center;
+    font-family: OdinFont, sans-serif;
+    font-size: 5rem;
+    color: white;
+    opacity: 100%;
+    
+}
+
+img {
+    opacity: 100%;
+}
+
+.backgroundcredit {
+    margin-bottom: 5%;
+    color: white;
+}
+
+a {
+    color: inherit;
+}
+
+
+.rightside {
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.topthird{
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-family: sans-serif;
+}
+
+h2 {
+    margin-left: 5%;
+    font-family: sans-serif;
+}
+
+.middlethird{
+    flex: 1;
+}
+
+.formheader {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    padding: 2%;
+}
+
+.formrow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formrow > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+label {
+    align-self: flex-start;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+input {
+    width: 70%;
+    border: solid #E5E7EB .1rem;
+    border-radius: .3rem;
+    height: 1.5rem;
+}
+
+input:focus {
+    border: solid blue .2rem;
+}
+
+.bottomthird{
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+button {
+    background-color: green;
+    height: 4rem;
+    width: 12rem;
+    border-radius: 1rem;
+    color: whitesmoke;
+    font-size: x-large;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+button:hover {
+    box-shadow: green;
+    cursor: pointer;
+}
+
+.bottomtext {
+    font-size: large;
+    margin-left: 3%;
+}
