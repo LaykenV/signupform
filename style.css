@@ -66,6 +66,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    background-color: whitesmoke;
 }
 
 .topthird{
@@ -83,10 +84,12 @@ h1 {
 h2 {
     margin-left: 5%;
     font-family: sans-serif;
+    margin-top: 3%;
 }
 
 .middlethird{
     flex: 1;
+    background-color: white;
 }
 
 .formheader {
@@ -96,10 +99,10 @@ h2 {
     margin-top: 4%;
 }
 
-form {
+.form {
     display: flex;
     flex-direction: column;
-    gap: 1.4rem;
+    gap: 10px;
     padding: 2%;
 }
 
@@ -129,7 +132,7 @@ input {
 }
 
 input:focus {
-    border: solid blue .2rem;
+    border: solid green 3px;
 }
 
 .bottomthird{
@@ -139,8 +142,8 @@ input:focus {
 
 button {
     background-color: green;
-    height: 4rem;
-    width: 12rem;
+    height: 3rem;
+    width: 15rem;
     border-radius: 1rem;
     color: whitesmoke;
     font-size: x-large;
@@ -156,4 +159,5 @@ button:hover {
 .bottomtext {
     font-size: large;
     margin-left: 3%;
+    margin-top: 3%;
 }
